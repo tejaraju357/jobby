@@ -10,7 +10,7 @@ const API_STATUS = {
   IN_PROGRESS: 'IN_PROGRESS',
 }
 
-const JobProfile = () => {
+const jobProfile = () => {
   const [profile, setProfile] = useState(null)
   const [apiStatus, setApiStatus] = useState(API_STATUS.INITIAL)
 
@@ -73,4 +73,4 @@ const JobProfile = () => {
   )
 }
 
-export default JobProfile
+export default jobProfile

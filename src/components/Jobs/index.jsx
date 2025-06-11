@@ -1,6 +1,5 @@
 import Header from '../Header';
 import JobProfile from "../JobProfile";
-
 import './index.css'
 import { useEffect, useState, useCallback } from 'react';
 import Cookies from 'js-cookie';
